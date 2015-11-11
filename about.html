@@ -36,10 +36,20 @@
 		
 		
 		<div class="row">
-			<div class="col-md-4 about-me" id="about-me-menu" onclick="document.getElementById('main').style.display='none'; document.getElementById('porfolio').style.display='block';">About me </div>
-			<div class="col-md-4 portfolio" id="portfolio-menu"><a href="/portfolio/" >	Portfolio</a></div>
-			<div class="col-md-4 contact" id="contact-menu">	<a href="contact.html" >Contact</a></div>
+
+			<div class="col-sm-4"><div class="about-me" ><a href="about.html/"	>Αbout me</a></div></div>
+			<div class="col-sm-4"><div class="portfolio"><a href="/portfolio/" 	>Portfolio</a></div></div>
+			<div class="col-sm-4"><div class="contact"	><a href="contact.html/">Contact</a></div></div>
+
 		</div>
+		
+		<!--
+		<div class="row">
+			<div class="col-md-4 about-me"> <button onclick="document.getElementById('index-main').style.display='none'; document.getElementById('about-main').style.display='block';"> <img src="img/about.svg" /> About me </button></div>
+			<div class="col-md-4 portfolio"> <a href="#index-main" onclick="document.getElementById('about-main').style.display='none'; document.getElementById('index-main').style.display='block';"> <img src="img/portfolio.svg" /> Portfolio </a></div>
+			<div class="col-md-4 contact">	<a href="contact.html/" > <img src="img/contact.svg"/>Contact</a></div>
+		</div>
+		-->
 
 		<!--
 		<div class="row">
@@ -62,11 +72,11 @@
 		-->
 		
 		<div class = "main" > 
-			<div class = "about-main" id="main">
+			<div class = "index-main" id="index-main">
 				<p> And this is me! Trying to create a website! </P>
 			</div>
 			
-			<div class = "about-main" id="porfolio">
+			<div class = "about-main" id="about-main">
 				<p> Portfoliooooo! </P>
 			</div>
 		
