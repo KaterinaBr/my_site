@@ -14,57 +14,29 @@ width = 100%;
 
 /*header*/
 .header 		 	{ }
-.header h1 		{ font-size:3em; font-weight: normal;}
-.header h1 img 	{ vertical-align: top; max-width:100%;}
+.header  img 	{ vertical-align: top; max-width:100%; margin: 25px 0px;}
 
 
 /* menu */
-.row 		{ 
+.myrow 		{ 
 background:#ffffff;
 margin:auto; 
-max-width:960px; 
-border-radius: 20px;
+border-radius: 25px;
 
-font-size:1.8em;
+font-size:1.5em;
 color:#187ea4;
 display:block; 
 text-decoration:none; 
 padding:8px 50px; 
 }
 
+.col-menu { }
+.col-menu img { margin: 0px 10px; max-height:25px; }
 
-/*
-.row a 		{color:#187ea4; display:block; text-decoration:none; height:44px; padding:8px 50px; margin:0 10px -10px;}
-.row a:hover { text-decoration:none; color:#d0d4e3;}
-*/
-
-/*
-.menu .wrapper 		{ background:transparent;}
-.menu ul 				{ margin:0; padding:0;}
-.menu ul li 			{ display:inline-block; font-size:26px;}
-.menu ul li a 				{ color:#187ea4; display:block; text-decoration:none; height:44px; padding:8px 50px; margin:0 10px -10px;}
-.menu ul li a:hover 		{ text-decoration:none; color:#d0d4e3;}
-.menu ul li.current a:hover { color:#fff;}
-*/
-
-.col-md-4 {min-height:45px; border-radius: 10px; cursor:pointer; } 
-.col-md-4 img { margin: 0px 10px;}
-
-.about-me { background:url(../img/about.svg) no-repeat; 		max-width:75%; margin:auto; }
-.portfolio{ background:url(../img/portfolio.svg) no-repeat; max-width:75%; margin:auto;}
-.contact{ background:url(../img/contact.svg) no-repeat;		max-width:75%; margin:auto;}
-/* left 15px top 10px  */
 
 /* main */
-.main 				{padding : 50px 100px 100px; color:#5a5a5a;}
+.main 		{padding : 50px 100px 100px; color:#5a5a5a;}
 .index-main {background:url(../img/paw-back.svg) no-repeat center; min-height:500px; }
-.contact-main {background:url(../img/contact-back.svg) no-repeat center; min-height:500px; display:none;}
-.about-main {background:url(../img/about-back.svg) no-repeat center; min-height:500px; display:none;}
-
-
-/*
-.index-main {background:url(../img/paw-back.svg) no-repeat center; min-height:500px;}
-.contact-main {background:url(../img/contact-back.svg) no-repeat center; min-height:500px;}
+.contact-main {background:url(../img/contact-back.svg) no-repeat center; min-height:500px; }
 .about-main {background:url(../img/about-back.svg) no-repeat center; min-height:500px;}
-*/
 
