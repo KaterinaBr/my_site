@@ -31,6 +31,8 @@ padding:8px 50px;
 }
 
 .col-menu { }
+.col-menu a { color:#187ea4;}
+.col-menu a:hover { text-decoration:none; color:#d0d4e3;}
 .col-menu img { margin: 0px 10px; max-height:25px; }
 
 
